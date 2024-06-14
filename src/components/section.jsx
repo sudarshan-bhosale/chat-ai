@@ -45,7 +45,7 @@ function Section() {
             <h2 className="text-gray-400">How can I help you today?</h2>
           </div>
 
-          <div className="flex justify-center gap-12">
+          <div className="flex justify-center gap-8 flex-wrap">
             {suggested.map((item, index) => {
               return <Box key={index} item={item} />;
             })}
